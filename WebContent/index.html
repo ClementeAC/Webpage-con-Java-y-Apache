@@ -7,7 +7,10 @@
 <title>Registro</title>
 </head>
 <body>
-    <form class="box" action="Registro" method="POST">
+    <%
+String contextPath = request.getContextPath();
+%>
+    <form class="box" action= contextPath + "/Registro" method="POST">
         <h1>Registro</h1>
         <input type="text" name="username" placeholder="Username" />
         <input type="email" name="email" placeholder="Email">
