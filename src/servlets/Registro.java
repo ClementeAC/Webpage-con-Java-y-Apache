@@ -14,7 +14,7 @@ import helpers.Hashing;
 /**
  * Servlet implementation class Registro
  */
-@WebServlet("https://proyecto1-web2.herokuapp.com/Registro")
+@WebServlet("asyncSupported = false, name = "Registro", urlPatterns = {"/Registro"}")
 public class Registro extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
