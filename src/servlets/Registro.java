@@ -14,7 +14,7 @@ import helpers.Hashing;
 /**
  * Servlet implementation class Registro
  */
-@WebServlet("asyncSupported = false, name = "Registro", urlPatterns = {"/Registro"}")
+@WebServlet("asyncSupported = false, name = "Registro", urlPatterns = {"${pageContext.request.contextPath}/servlet"}")
 public class Registro extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
