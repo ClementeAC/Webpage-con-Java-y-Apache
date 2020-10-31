@@ -16,7 +16,7 @@
 	<servlet>
 		<description></description>
 		<servlet-name>Registro</servlet-name>
-		<servlet-class>com.clemente.servlets.Registro</servlet-class>
+		<servlet-class>servlets.Registro</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Registro</servlet-name>
