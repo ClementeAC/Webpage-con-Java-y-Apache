@@ -15,11 +15,11 @@
 
 	<servlet>
 		<description></description>
-		<servlet-name>Registro</servlet-name>
+		<servlet-name>Registrop</servlet-name>
 		<servlet-class>Registro</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Registro</servlet-name>
+		<servlet-name>Registrop</servlet-name>
 		<url-pattern>/Registro</url-pattern>
 	</servlet-mapping>
 
