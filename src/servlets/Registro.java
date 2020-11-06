@@ -15,7 +15,7 @@ import helpers.Hashing;
  * Servlet implementation class Registro
  */
 @WebServlet("name = "ServletRegistro",
-        urlPatterns = {"*/Registro"}")
+        urlPatterns = {"/Servlet/Registro"}")
 public class Registro extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
